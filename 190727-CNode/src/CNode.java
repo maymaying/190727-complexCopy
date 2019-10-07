@@ -6,4 +6,8 @@ public class CNode {
     CNode(int val) {
         this.val = val;
     }
+    
+    public String toString() {
+        return String.format("CNode(%d)", val);
+    }
 }
